@@ -1328,6 +1328,8 @@ h3 {
   .createfreeaccount {
     padding: 1rem 1rem;
     padding-top: 12rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
 }
 
 .createfreeaccount  h1 {
@@ -1374,6 +1376,70 @@ h3 {
 .createfreeaccount .freelisting_img img {
     width: 16rem;
 }
+.listing-benefits {
+  display: none;
+}
+
+.social-app-section {
+  padding: 1rem 0.5rem;
+}
+.social-app-section .business-note {
+  display: none;
+}
+
+.follow-us {
+  justify-content: space-between;
+  gap: 0rem;
+  padding: 0rem 0rem;
+  margin: auto;
+}
+
+.follow-us span {
+  font-size: 0.5rem;
+  font-weight: 500;
+  white-space: nowrap;
+
+  
+}
+
+.social-icons {
+  gap: 0;
+  margin: auto;
+}
+
+.social-icons img {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  transition: transform 0.2s;
+}
+
+.app-links {
+  margin: auto;
+}
+
+.extra-links-section {
+  padding: 1rem 0rem;
+  
+}
+
+.extra-links-category {
+  margin-bottom: 10px;
+  margin: 0;
+}
+
+.extra-links-category h3 {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.extra-links-category p {
+  font-size: 0.5rem;
+  letter-spacing: 0px;
+  line-height: 1;
+}
+
   
 }
 
@@ -1423,13 +1489,13 @@ h3 {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .follow-us {
   display: flex;
   align-items: center;
-  gap: 15px;
-  flex-wrap: wrap;
+  gap: 1rem;
   padding: 0px 40px;
 }
 
@@ -1469,7 +1535,6 @@ h3 {
 
 .extra-links-section {
   padding: 40px 40px;
-  font-family: 'Poppins', sans-serif;
   color: #333;
   background-color: #fff;
   max-width: 100%;
@@ -1494,6 +1559,39 @@ h3 {
   line-height: 3;
   color: #555;
   word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .extra-links-section {
+  padding: 1rem 1rem;
+  }
+  .footer {
+    padding: 0rem 0.5rem;
+    font-size: 0.5rem;
+  }
+
+  
+  .footer-container {
+    gap: 0rem;
+  }
+  .footer-section {
+    margin-bottom: 0rem;
+  }
+  .footer-section h4 {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0rem;
+  }
+  .footer-section ul li {
+    margin-bottom: 0rem;
+  }
+  .footer-bottom {
+    text-align: center;
+    padding-top: 0px;
+    font-size: 0.4rem;
+  }
+
+
 }
 
 
