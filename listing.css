@@ -1381,44 +1381,7 @@ h3 {
   display: none;
 }
 
-.social-app-section {
-  padding: 1rem 0.5rem;
-}
-.social-app-section .business-note {
-  display: none;
-}
 
-.follow-us {
-  justify-content: space-between;
-  gap: 0rem;
-  padding: 0rem 0rem;
-  margin: auto;
-}
-
-.follow-us span {
-  font-size: 0.5rem;
-  font-weight: 500;
-  white-space: nowrap;
-
-  
-}
-
-.social-icons {
-  gap: 0;
-  margin: auto;
-}
-
-.social-icons img {
-  width: 1rem;
-  height: 1rem;
-  border-radius: 50%;
-  background-color: #f5f5f5;
-  transition: transform 0.2s;
-}
-
-.app-links {
-  margin: auto;
-}
 
 .extra-links-section {
   padding: 1rem 0rem;
@@ -1500,7 +1463,7 @@ h3 {
   padding: 0px 40px;
 }
 
-.follow-us span {
+.follow-us h2 {
   font-size: 18px;
   font-weight: 500;
 }
@@ -1510,7 +1473,7 @@ h3 {
   gap: 8px;
 }
 
-.social-icons img {
+.social-icons a img {
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -1563,6 +1526,48 @@ h3 {
 }
 
 @media (max-width: 768px) {
+
+  .social-app-section {
+  padding: 1rem 0.5rem;
+}
+.social-app-section .business-note {
+  display: none;
+}
+
+.follow-us {
+  justify-content: space-between;
+  gap: 0rem;
+  margin: auto;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.follow-us h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  white-space: nowrap;
+
+  
+}
+
+.social-icons {
+  /* background-color: red; */
+  gap: 0.4rem;
+  margin: auto;
+}
+
+.social-icons a img {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  padding: auto;
+  background-color: #f5f5f5;
+  transition: transform 0.2s;
+}
+
+.app-links {
+  margin: auto;
+}
   .extra-links-section {
   padding: 1rem 1rem;
   }
